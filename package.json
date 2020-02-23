@@ -16,5 +16,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.12.0"
+  },
+  "scripts": {
+    "start:my-react-app": "cd packages/applications/my-react-app && npm start",
+    "postinstall": "lerna bootstrap"
   }
 }

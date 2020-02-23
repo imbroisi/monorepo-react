@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",
-    "jest": "jest --coverage --verbose --color"
+    "jest": "jest --coverage --verbose --color",
+    "postinstall": "lerna run transpile"
   },
   "babel": {
     "presets": [
