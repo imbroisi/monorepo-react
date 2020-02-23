@@ -10,7 +10,8 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
 
-    "@my-project/comp-button": "*"
+    "@my-project/comp-button": "*",
+    "@my-project/other-button": "*"
   },
   "scripts": {
     "start": "react-scripts start",

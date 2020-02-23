@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import CompButton from '@my-project/comp-button';
+import OtherButton from '@my-project/other-button';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
         <CompButton>Foobar!</CompButton>
+        <OtherButton>OtherButton!</OtherButton>
 
       </header>
     </div>
